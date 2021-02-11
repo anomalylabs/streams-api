@@ -10,7 +10,7 @@ mix
 
             return {
                 externals: {
-                    '@streams/core': ['streams', 'core'],
+                    '@laravel-streams/core': ['streams', 'core'],
                     'axios': ['streams', 'core', 'axios'],
                 },
                 output: {
